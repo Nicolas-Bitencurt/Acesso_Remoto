@@ -1,0 +1,95 @@
+# Remote Access App - Gitignore
+
+# Ambiente Virtual
+venv/
+env/
+ENV/
+*.egg-info/
+*.dist-info/
+
+# Arquivos de Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs da Aplicação
+logs/
+*.log
+*.log.*
+
+# Banco de Dados Locais
+*.db
+*.sqlite
+*.sqlite3
+users.json
+sessions.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.*.local
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Arquivos do Sistema
+*.bak
+*.tmp
+*.temp
+node_modules/
+
+# Certificados (não commitar chaves privadas)
+*.pem
+*.key
+*.crt
+*.cer
+
+# Configurações Locais
+local_config.py
+settings_local.py
+
+# Capturas de Tela de Teste
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Compilados
+*.c
+*.so
+*.o
+
+# Executáveis Temporários
+*.exe
+*.msi
